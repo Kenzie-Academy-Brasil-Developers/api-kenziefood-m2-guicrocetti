@@ -17,7 +17,7 @@ class Redirect{
     static toPublicHome(){
         const skip = document.querySelector("#skip-register");
         skip.addEventListener("click", ()=>{
-            window.location.href = "/Src/pages/home.html";
+            window.location.href = `${window.location.pathname}/Src/pages/home.html`;
         })
     }
 
